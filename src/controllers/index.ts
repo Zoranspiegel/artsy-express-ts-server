@@ -1,1 +1,2 @@
-export * from "./artworks.controller";
+export * from "./allArtworks.controller";
+export * from "./artworksByArtist.controller";

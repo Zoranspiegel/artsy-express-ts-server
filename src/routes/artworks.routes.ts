@@ -5,4 +5,6 @@ const router = Router();
 
 router.get("/", ctr.getAllArtworks);
 
+router.get("/artist/:artistID", ctr.getArtworksByArtist);
+
 export default router;
