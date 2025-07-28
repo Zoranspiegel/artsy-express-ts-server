@@ -1,7 +1,8 @@
 import { Router } from "express";
+import * as ctr from "../controllers";
 
 const router = Router();
 
-router.get("/", (_req, res) => res.status(200).json({ msg: "UNDER DEV" }));
+router.get("/", ctr.getAllArtworks);
 
 export default router;
