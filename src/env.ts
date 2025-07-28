@@ -1,4 +1,7 @@
+import dotenv from "dotenv";
 import { cleanEnv, str } from "envalid";
+
+dotenv.config();
 
 const env = cleanEnv(process.env, {
   PORT: str(),
