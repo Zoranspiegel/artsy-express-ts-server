@@ -7,4 +7,6 @@ router.get("/", ctr.getAllArtworks);
 
 router.get("/artist/:artistID", ctr.getArtworksByArtist);
 
+router.get("/:artworkID", ctr.getAtworkByID);
+
 export default router;
